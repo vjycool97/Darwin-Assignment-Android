@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">DarwinLab Test</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="menuTitle">LedgerEX</string>
+    <string name="title_recieve">RECEIVE</string>
+    <string name="confirmationMessage">Are you sure you want to exit ?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="btc">BTC</string>
+    <string name="ethereum_balance">ETHEREUM BALANCE</string>
+    <string name="eth">ETH</string>
+    <string name="ltc">LTC</string>
+    <string name="stm">STM</string>
+    <string name="dsh">DSH</string>
+    <string name="points">23.97642</string>
+    <string name="costing">$5976.47</string>
+    <string name="measure">1 ETH = </string>
+    <string name="measure_two">&#032; 0.0916 BTC</string>
+    <string name="send">SEND</string>
+    <string name="buy_sell">BUY/SELL</string>
+    <string name="transaction_history">TRANSACTION HISTORY</string>
+    <string name="address_text">0x36354825368dd</string>
+    <string name="amount">AMOUNT</string>
+    <string name="values_send">0.0 ETH</string>
+    <string name="enter_pin">ENTER PIN</string>
+    <string name="ethereum_adress">YOUR ETHEREUM ADDRESS</string>
+    <string name="ethereum_code">YOUR ETHEREUM QR CODE</string>
+    <string name="day">DAY</string>
+    <string name="date_time">28 JULY 2017 | 8:36 AM</string>
+    <string name="pin_error_msg">Please Enter the correct pin !!</string>
+</resources>

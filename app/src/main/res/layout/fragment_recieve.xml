@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ethereum_code"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifty_dp"
+        android:textColor="@color/light_grey_two"/>
+
+    <ImageView
+        android:id="@+id/scanner_view"
+        android:layout_centerInParent="true"
+        android:layout_width="@dimen/two_fifty_dp"
+        android:layout_height="@dimen/two_fifty_dp"
+        android:src="@drawable/qrcode" />
+
+    <TextView
+        android:layout_below="@+id/scanner_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ethereum_adress"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/titleMargin" />
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="center_horizontal|center_vertical"
+       android:orientation="horizontal"
+       android:padding="@dimen/ten_dp"
+       android:layout_alignParentBottom="true"
+       android:weightSum="2">
+       <TextView
+           android:id="@+id/adressText"
+           android:layout_width="0dp"
+           android:layout_height="@dimen/forty_dp"
+           android:layout_weight="1.70"
+           android:layout_marginLeft="@dimen/four_dp"
+           android:gravity="center"
+           android:text="@string/address_text"
+           android:textColor="@color/black"
+           android:background="@drawable/button_shape"/>
+       <ImageView
+           android:id="@+id/btn_copy"
+           android:layout_width="0dp"
+           android:layout_height="@dimen/forty_dp"
+           android:src="@drawable/copyicon"
+           android:layout_weight=".30"/>
+
+   </LinearLayout>
+</RelativeLayout>

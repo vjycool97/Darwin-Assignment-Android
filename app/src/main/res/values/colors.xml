@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3D6B99</color>
+    <color name="colorPrimaryDark">#365879</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="blue">#3D6B99</color>
+    <color name="light_grey">#CBCBCB</color>
+    <color name="light_grey_two">#9B9B9B</color>
+    <color name="black">#000000</color>
+    <color name="heightColor">#6fb7b7b7</color>
+    <color name="red">#B33636</color>
+    <color name="green">#2E9940</color>
+    <color name="text_color_two">#4E4E4E</color>
+    <color name="colorTextForgotPin">#3D6B99</color>
+    <color name="colorTextRed">#ff0000</color>
+    <color name="colorTextBlack">#e6646464</color>
+    <color name="colorProgressBg">#80000000</color>
+    <color name="Black0Percent">#00000000</color>
+    <color name="colorPending">#4682B4</color>
+    <color name="colorApproved">#00b100</color>
+    <color name="colorReject">#ff0000</color>
+    <color name="colorEditBorder">#66bfbfbf</color>
+    <color name="colorTnxLine">#807f7f7f</color>
+    <color name="toolbarcolor"> #717171</color>
+</resources>
